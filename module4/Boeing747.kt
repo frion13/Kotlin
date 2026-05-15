@@ -4,11 +4,11 @@ package module4
      aircraftNum: Int,
      maxFlightRange: Int,
      capacity: Double,
-     override val passangerCapacity : Int) : Aircraft(aircraftNum, maxFlightRange, capacity), Passanger{
+     override val passengerCapacity : Int) : Aircraft(aircraftNum, maxFlightRange, capacity), Passanger{
 
      override fun printInfo() {
          super.printInfo()
-         println("Пассажиров: $passangerCapacity")
+         println("Пассажиров: $passengerCapacity")
      }
 }
 

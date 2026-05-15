@@ -1,5 +1,5 @@
 package module4
 
 interface Passanger {
-    val passangerCapacity : Int
+    val passengerCapacity : Int
 }
